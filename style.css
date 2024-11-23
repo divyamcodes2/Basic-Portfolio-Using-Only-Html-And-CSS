@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    /*It will remove the bullet points*/
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(171, 48, 198);
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.first div {
+    width: 30%;
+}
+
+.leftsection {
+
+    font-size: 2.5rem;
+}
+
+.rightsection img {
+    width: 80%;
+
+}
+
+.first>div {
+    width: 30%;
+}
+
+.purple {
+    color: rgb(103, 5, 194);
+}
+
+#element {
+    color: rgb(103, 5, 194);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.hr {
+    border: 0;
+    height: 1px;
+    background: rgb(74, 74, 207);
+    margin: 40px 84px;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.grey {
+    color: rgb(128, 128, 128);
+}
+
+.secondsection .box {
+    display: flex;
+    width: 77vw;
+    height: 2px;
+    background: #fff;
+    margin: 56px 0;
+
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 120px;
+}
+
+.top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.desc {
+    position: relative;
+    top: 86px;
+    width: 150px;
+    font-size: 12px;
+    color: fuchsia;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+}
+
+.yoyo {
+    display: flex;
+    margin: 0 12px;
+    justify-content: space-evenly;
+}
+.second ul a {
+    text-decoration: none;
+    color: aqua;
+}
+.rights h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+.abc {
+    margin: 20px;
+    font-size: smaller;
+    font-weight: 100;
+}
+
